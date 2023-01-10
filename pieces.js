@@ -1,5 +1,3 @@
-
-
 // fetch("pieces-autos.json")
 // .then(response => response.json())
 // .then(data => {
@@ -134,13 +132,5 @@ withDescription.addEventListener("click", function() {
 })
 
 
-var test = await fetch('http://localhost:8081/pieces');
-var test2 = await test.json();
-
-console.log("test", test2)
-
-
-
-
-
-
+// var test = await fetch('http://localhost:8081/pieces');
+// var test2 = await test.json();

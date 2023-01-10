@@ -58,4 +58,3 @@ showAvis(avis)
 
 
 
-console.log(avis);
