@@ -39,13 +39,15 @@ function listItems(data) {
             descriptionElt.textContent = `Description : ${piece.description ?? "Aucune description"}`;
 
         const avisElt = document.createElement("a");
-            avisElt.href = `http://localhost:8080/${piece.id}`;
+            avisElt.href = `avis.html?id=${piece.id}`;
+            avisElt.textContent = "Avisclient"
 
                 containerItem.appendChild(nameElt)
                 containerItem.appendChild(priceElt)
                 containerItem.appendChild(categoryElt)
                 containerItem.appendChild(imgElt)
                 containerItem.appendChild(descriptionElt)
+                containerItem.appendChild(avisElt)
 
                 fiches.appendChild(containerItem)
     });
